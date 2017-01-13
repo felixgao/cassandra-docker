@@ -13,3 +13,18 @@ To execute more migration scripts
 
 To destory the db
 `docker-compose -f cassandra-cluster.yml down`
+
+
+####Environment Variables
+- CREATE_KEYSPACE_SCRIPT
+    * the name of the cql script located in resources/cql directory
+- CASSANDRA_KEYSPACE
+    * default: datafabrics
+- CQLSH_USERNAME
+    * default: [empty]
+- CQLSH_PASSWORD
+    * default: [empty]
+- CASSANDRA_CONTACT_POINT
+    * default: localhost
+- CASSANDRA_PORT
+    * default: 9042
