@@ -1,5 +1,9 @@
 # cassandra-docker
 
+##Requirements
+* **Docker 1.12.5+** 
+* **docker-compose 1.9.0+**
+
 To use this, add a directory called resources/cql and place all your cql scripts in there.  
 For keyspace it should not start with Vxxx__ where xxx is the number sequence for the migration.
 For migration all cql should have the Vxxx__description.cql format. 
